@@ -2,7 +2,7 @@
 title: "Ensemble Semi-supervised Entity Alignment via Cycle-teaching"
 collection: publications
 permalink: /publication/AAAI2022-eacycleteaching
-excerpt: ''
+excerpt: 'Kexuan Xin, Zequn Sun, Wen Hua, Bing Liu, Wei Hu, Jianfeng Qu, Xiaofang Zhou, AAAI, 2022'
 date: 2022-03-01
 venue: 'AAAI 2022'
 authors: 'Kexuan Xin, Zequn Sun, Wen Hua, Bing Liu, Wei Hu, Jianfeng Qu, Xiaofang Zhou'
@@ -28,5 +28,5 @@ outperforms the state-of-the-art models when the training data
 is insufficient and the new entity alignment has much noise.
 
 
-[PDF](https://www.aaai.org/AAAI22Papers/AAAI-5065.XinK.pdf)
-[Code](https://github.com/JadeXIN/CycTEA)
+[[PDF](https://www.aaai.org/AAAI22Papers/AAAI-5065.XinK.pdf)]
+[[Code](https://github.com/JadeXIN/CycTEA)]
