@@ -3,7 +3,7 @@ title: "ActiveEA: Active Learning for Neural Entity Alignment"
 collection: publications
 permalink: /publication/emnlp2021-al4ea
 excerpt: ''
-date: 2022-11-07
+date: 2021-11-07
 venue: 'EMNLP'
 authors: '<strong>Bing Liu</strong>, Harrisen Scells, Guido Zuccon, Wen Hua, Genghong Zhao'
 track: 'Full Paper'
