@@ -6,7 +6,7 @@ excerpt: 'Best Student Paper Award'
 date: 2021-07-11
 venue: 'ICTIR'
 authors: 'Shuyi Wang, <strong>Bing Liu</strong>, Shengyao Zhuang, Guido Zuccon'
-track: 'Full Paper, &#x1F3C6 Best Student Paper Award'
+track: 'Full Paper, &#x1F3C6; Best Student Paper Award'
 pdf_url: "http://ielab.io/publications/pdfs/wang2021fpdgd.pdf"
 code_url: "https://github.com/ielab/fpdgd-ictir2021"
 ---
