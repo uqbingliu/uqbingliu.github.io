@@ -40,7 +40,12 @@ layout: default
           <p> {{ page.authors }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} ({{ page.track }}) 
             {% if page.pdf_url or page.code_url %}
             <br>
-            <a href="{{ page.pdf_url}}">PDF</a>, <a href="{{ page.code_url}}">Code</a>
+            {% if page.pdf_url %}
+            [<a href="{{ post.pdf_url}}">PDF</a>]
+            {% endif %}
+            {% if page.code_url %}
+            [<a href="{{ post.code_url}}">Code</a>]
+            {% endif %}
             {% endif %}
           </p>
           <!-- <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p> -->

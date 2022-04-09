@@ -44,7 +44,12 @@
         <p> {{ post.authors }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} ({{ post.track }}) 
           {% if post.pdf_url or post.code_url %}
           <br>
-          <a href="{{ post.pdf_url}}">PDF</a>, <a href="{{ post.code_url}}">Code</a>
+          {% if post.pdf_url %}
+          [<a href="{{ post.pdf_url}}">PDF</a>]
+          {% endif %}
+          {% if post.code_url %}
+          [<a href="{{ post.code_url}}">Code</a>]
+          {% endif %}
           {% endif %}
         </p>
           <!-- <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p> -->
