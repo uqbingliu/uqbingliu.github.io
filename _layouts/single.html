@@ -37,10 +37,10 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p> {{ post.authors }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} ({{ post.track }}) 
-            {% if post.pdf_url or post.code_url %}
+          <p> {{ page.authors }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} ({{ page.track }}) 
+            {% if page.pdf_url or page.code_url %}
             <br>
-            <a href="{{ post.pdf_url}}">PDF</a>, <a href="{{ post.code_url}}">Code</a>
+            <a href="{{ page.pdf_url}}">PDF</a>, <a href="{{ page.code_url}}">Code</a>
             {% endif %}
           </p>
           <!-- <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p> -->
