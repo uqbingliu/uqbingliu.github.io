@@ -24,6 +24,16 @@ Academic Service
 
 Teaching
 ---
+<ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+
+Publications
+---
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 
 Honors & Awards
