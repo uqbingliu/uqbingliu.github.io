@@ -2,7 +2,7 @@
 title: "Effective and Privacy-preserving Federated Online Learning to Rank"
 collection: publications
 permalink: /publication/ictir2021-fdolr
-excerpt: 'Best Student Paper Award'
+excerpt: ''
 date: 2021-07-11
 venue: 'ICTIR'
 authors: 'Shuyi Wang, <strong>Bing Liu</strong>, Shengyao Zhuang, Guido Zuccon'

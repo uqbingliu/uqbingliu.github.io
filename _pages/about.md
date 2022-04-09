@@ -24,22 +24,23 @@ Academic Service
 
 Teaching
 ---
-<ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Relational Database System (INFS2200/7903), Semester 2, 2021
+  * The University of Queensland (St Lucia campus)
+  * Tutor for practical sessions
+* Relational Database System (INFS2200/7903), Semester 2, 2020
+  * The University of Queensland (St Lucia campus)
+  * Tutor for tutorial sessions
 
-
-Publications
+Industry Experience
 ---
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Algorithm Intern, Huawei Technologies Co., Ltd, Jun. - Aug. 2019
+  * Log anomaly detection based on sequential modelling
 
 
 Honors & Awards
 ----
 * Best Student Paper Award, ICTIR 2021 (second author)
-* Meritorious Winner (top 10\%), The International Mathematical Contest in Modeling, Apr. 2013
+* Meritorious Winner (top 10%), The International Mathematical Contest in Modeling, Apr. 2013
 
 
 
