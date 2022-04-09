@@ -7,8 +7,8 @@ date: 2022-03-01
 venue: 'AAAI'
 authors: 'Kexuan Xin, Zequn Sun, Wen Hua, Bing Liu, Wei Hu, Jianfeng Qu, Xiaofang Zhou'
 track: 'Full Paper'
-comment: "[PDF](https://www.aaai.org/AAAI22Papers/AAAI-5065.XinK.pdf),
-[Code](https://github.com/JadeXIN/CycTEA)"
+pdf_url: "https://www.aaai.org/AAAI22Papers/AAAI-5065.XinK.pdf"
+code_url: "https://github.com/JadeXIN/CycTEA"
 ---
 
 ## Abstract
