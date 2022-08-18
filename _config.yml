@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Bing Liu"
 title_separator          : "-"
 name                     : &name "Bing Liu"
-description              : &description "PhD candidate in computer science at The University of Queensland."
+description              : &description "PhD candidate at The University of Queensland."
 url                      : https://uqbingliu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "uqbingliu/uqbingliu.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Bing Liu"
   avatar           : "profile-sea.jpeg"
-  bio              : "PhD candidate in computer science at The University of Queensland."
+  bio              : "PhD candidate at The University of Queensland."
   location         : "Brisbane, Australia"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=uYJIvCMAAAAJ&hl=en"
   email            : "bing.liu@uq.edu.au"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
