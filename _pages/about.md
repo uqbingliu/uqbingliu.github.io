@@ -31,10 +31,6 @@ Teaching
   * The University of Queensland (St Lucia campus)
   * Tutor for tutorial sessions
 
-Industry Experience
----
-* Algorithm Intern, Huawei Technologies Co., Ltd, Jun. - Aug. 2019
-  * Log anomaly detection based on sequential modelling
 
 
 Honors & Awards
