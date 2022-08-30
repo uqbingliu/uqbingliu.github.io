@@ -7,7 +7,7 @@ date: 2022-10-17
 venue: 'CIKM'
 authors: '<strong>Bing Liu</strong>, Wen Hua, Guido Zuccon, Genghong Zhao, Xia Zhang'
 track: 'Full Paper'
-pdf_url: ""
+pdf_url: "https://arxiv.org/pdf/2208.10366.pdf"
 code_url: "https://github.com/uqbingliu/DivEA"
 ---
 
