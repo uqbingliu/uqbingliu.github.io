@@ -8,7 +8,7 @@ venue: 'EMNLP'
 authors: '<strong>Bing Liu</strong>, Harrisen Scells, Guido Zuccon, Wen Hua, Genghong Zhao'
 track: 'Full Paper'
 pdf_url: "https://aclanthology.org/2021.emnlp-main.270.pdf"
-code_url: "https://github.com/UQ-Neusoft-Health-Data-Science/ActiveEA"
+code_url: "https://github.com/uqbingliu/ActiveEA"
 ---
 
 ## Abstract
@@ -36,5 +36,3 @@ Empirical results show that our proposed AL
 strategy can significantly improve sampling
 quality with good generality across different
 datasets, EA models and amount of bachelors.
-
-
