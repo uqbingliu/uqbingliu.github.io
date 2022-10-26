@@ -42,7 +42,7 @@ Honors & Awards
 
 Language
 ----
-* Mandarin Chinese (naive)
+* Mandarin Chinese (native)
 * English (fluent)
 
 

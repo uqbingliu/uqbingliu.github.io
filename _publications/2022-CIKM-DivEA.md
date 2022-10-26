@@ -9,6 +9,8 @@ authors: '<strong>Bing Liu</strong>, Wen Hua, Guido Zuccon, Genghong Zhao, Xia Z
 track: 'Full Paper'
 pdf_url: "https://arxiv.org/pdf/2208.10366.pdf"
 code_url: "https://github.com/uqbingliu/DivEA"
+slides_url: "/files/CIKM22-DivEA-slides.pdf"
+video_url: "https://dl.acm.org/doi/10.1145/3511808.3557352"
 ---
 
 ## Abstract

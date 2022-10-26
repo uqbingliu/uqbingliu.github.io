@@ -33,7 +33,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -41,7 +41,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-        <p> {{ post.authors }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} ({{ post.track }}) 
+        <p> {{ post.authors }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} ({{ post.track }})
           {% if post.pdf_url or post.code_url %}
           <br>
           {% if post.pdf_url %}
@@ -49,6 +49,12 @@
           {% endif %}
           {% if post.code_url %}
           [<a href="{{ post.code_url}}">Code</a>]
+          {% endif %}
+          {% if post.slides_url %}
+          [<a href="{{ post.slides_url}}">Slides</a>]
+          {% endif %}
+          {% if post.video_url %}
+          [<a href="{{ post.video_url}}">Video</a>]
           {% endif %}
           {% endif %}
         </p>
@@ -62,7 +68,7 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
+
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
