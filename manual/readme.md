@@ -17,19 +17,14 @@
 * Configuration. `_config.yml` -> `analytics:`.
 
 ## Modify the templates
-### Layout of the website
-#### Tabs
-### paper entry
-`_publications/archive-single.html`
+* Tabs (navigation): `_data/navigation.yml`
+* Paper entry: `_includes/archive-single.html`
+* Single page: `_layout/single.html`
 
 ## Grammar
-Global variables: 
+Global variables:
 * site: `_config.yml`
 * page: the meta data of each md file.
 
 ## TODOs
-* [ ] add visit stat function 
-
-
-
-
+* [ ] add visit stat function
