@@ -7,6 +7,7 @@ date: 2022-12-07
 venue: 'EMNLP'
 authors: '<strong>Bing Liu</strong>, Harrisen Scells, Wen Hua, Guido Zuccon, Genghong Zhao, Xia Zhang'
 track: 'Full Paper'
+pdf_url: "/files/EMNLP22-EMEA-paper.pdf"
 code_url: "https://github.com/uqbingliu/EMEA"
 ---
 
