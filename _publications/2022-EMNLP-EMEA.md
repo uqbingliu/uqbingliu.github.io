@@ -6,9 +6,10 @@ excerpt: ''
 date: 2022-12-07
 venue: 'EMNLP'
 authors: '<strong>Bing Liu</strong>, Harrisen Scells, Wen Hua, Guido Zuccon, Genghong Zhao, Xia Zhang'
-track: 'Full Paper'
-pdf_url: "/files/EMNLP22-EMEA-paper.pdf"
+track: 'Full Paper, oral'
+pdf_url: "https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.32.pdf"
 code_url: "https://github.com/uqbingliu/EMEA"
+slides_url: "/files/EMNLP22-EMEA-slides.pdf"
 ---
 
 ## Abstract

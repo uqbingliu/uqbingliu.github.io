@@ -7,6 +7,7 @@ date: 2023-02-27
 venue: 'WSDM'
 authors: '<strong>Bing Liu</strong>, Tiancheng Lan, Wen Hua, Guido Zuccon'
 track: 'Full Paper'
+pdf_url: "https://arxiv.org/pdf/2211.16101.pdf"
 code_url: "https://github.com/uqbingliu/STEA"
 ---
 
